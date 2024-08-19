@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/DealDropWebsite/static/css/main.7fe11595.css",
-    "main.js": "/DealDropWebsite/static/js/main.79f8b710.js",
+    "main.js": "/DealDropWebsite/static/js/main.1f0d410f.js",
     "static/js/453.a322163b.chunk.js": "/DealDropWebsite/static/js/453.a322163b.chunk.js",
     "index.html": "/DealDropWebsite/index.html",
     "main.7fe11595.css.map": "/DealDropWebsite/static/css/main.7fe11595.css.map",
-    "main.79f8b710.js.map": "/DealDropWebsite/static/js/main.79f8b710.js.map",
+    "main.1f0d410f.js.map": "/DealDropWebsite/static/js/main.1f0d410f.js.map",
     "453.a322163b.chunk.js.map": "/DealDropWebsite/static/js/453.a322163b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7fe11595.css",
-    "static/js/main.79f8b710.js"
+    "static/js/main.1f0d410f.js"
   ]
 }

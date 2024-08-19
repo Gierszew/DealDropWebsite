@@ -11,3 +11,150 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html, body {
+  max-width: 100%;
+  height: 200vh;
+  margin: 0;
+  background-color: #2E3232;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #2E3232;
+  color: white; /* s */
+}
+
+div.container > div {
+  margin: 2%;
+  border: 3px solid #5865F2;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  width: 60%;
+}
+
+.navigator {
+  display: flex;
+  justify-content: center; /* Centruje linki na środku */
+  background-color: #2E3232; /* Ciemniejszy kolor tła */
+  padding: 10px 0; /* Dodatkowa przestrzeń wokół linków */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Delikatny cień */
+}
+
+.navigator a {
+  text-decoration: none; /* Usunięcie podkreślenia */
+  color: #ffffff; /* Biały kolor tekstu */
+  margin: 0 15px; /* Odstęp między linkami */
+  font-size: 13px; /* Rozmiar czcionki */
+  transition: color 0.3s ease, transform 0.3s ease; /* Płynne przejście koloru i transformacji */
+}
+
+.navigator a:hover {
+  color: #FF5733; /* Zmiana koloru tekstu na złocisty podczas najechania */
+  transform: scale(1.1); /* Powiększenie tekstu podczas najechania */
+}
+
+.navigator a h2 {
+  margin: 0; /* Usuń domyślne marginesy */
+  font-weight: 500; /* Umiarkowana grubość tekstu */
+}
+
+
+hr {
+  width: 100%;
+}
+
+div h2.textcenter {
+  text-align: center;
+}
+
+.content {
+  font-size: 130%;
+  text-align: center;
+}
+
+.invite {
+  text-align: center;
+  margin: 20px 0; /* Dodaje przestrzeń dookoła sekcji */
+  border: 3px solid #3BA55C !important;
+}
+
+.invite h2 {
+  margin-bottom: 20px; /* Odstęp między nagłówkiem a przyciskami */
+  font-size: 24px; /* Rozmiar czcionki nagłówka */
+  color: #ffffff; /* Kolor nagłówka */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; /* Wyśrodkowanie przycisków */
+  gap: 10px; /* Przestrzeń między przyciskami */
+}
+
+.add-button, .donate-button {
+  padding: 10px 20px; /* Wewnętrzne marginesy przycisków */
+  border: none;
+  border-radius: 5px; /* Zaokrąglenie rogów */
+  color: white;
+  font-size: 16px; /* Rozmiar czcionki przycisków */
+  cursor: pointer; /* Zmiana kursora na wskaźnik po najechaniu */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Płynne przejście koloru i transformacji */
+}
+
+.add-button {
+  background-color: #5865F2; /* Kolor przycisku "Add to server" */
+}
+
+.donate-button {
+  background-color: #4CAF50; /* Kolor przycisku "Support creator" */
+}
+
+.add-button:hover {
+  background-color: #4752c4; /* Ciemniejszy odcień niebieskiego podczas najechania */
+}
+
+.donate-button:hover {
+  background-color: #45a049; /* Ciemniejszy odcień zielonego podczas najechania */
+}
+
+footer {
+  background-color: #2E3232; /* Tło stopki */
+  color: white; /* Kolor tekstu w stopce */
+  padding: 20px; /* Odstępy wewnętrzne */
+  text-align: center; /* Wyśrodkowanie tekstu */
+  position: relative; /* Umożliwia dostosowanie pozycji */
+  bottom: 0; /* Przyklejenie do dolnej krawędzi */
+  width: 100%; /* Pełna szerokość */
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.2); /* Delikatny cień na górze */
+}
+
+.footer-links {
+  margin-bottom: 10px; /* Odstęp poniżej linków */
+}
+
+.footer-links a {
+  color: #5865F2; /* Kolor linków */
+  text-decoration: none; /* Usunięcie podkreślenia */
+  margin: 0 15px; /* Odstępy między linkami */
+  font-size: 14px; /* Rozmiar czcionki linków */
+  transition: color 0.3s ease; /* Płynne przejście koloru */
+}
+
+.footer-links a:hover {
+  color: #4752c4; /* Ciemniejszy odcień niebieskiego podczas najechania */
+  text-decoration: underline; /* Podkreślenie linku podczas najechania */
+}

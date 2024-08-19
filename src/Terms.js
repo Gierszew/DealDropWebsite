@@ -31,5 +31,4 @@ function Terms() {
         </div>
     );
 }
-// SPRAWDZ TO POTEM
 export default Terms;

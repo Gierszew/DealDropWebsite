@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-    <Router>
+    <Router basename='DealDropWebsite'>
     <div className="container">
       
       <Navigator />
